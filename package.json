@@ -1,27 +1,28 @@
 {
-  "name": "node-wordcloud",
-  "version": "0.0.2",
-  "description": "Tag cloud presentation for NodeJS",
+  "name": "@akokko/node-wordcloud",
+  "version": "0.0.3",
+  "description": "Tag cloud presentation for NodeJS. This project was created by daidr. I updated the dependencies for secondary release.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daidr/node-wordcloud.git"
+    "url": "git+https://github.com/Akokk0/node-wordcloud.git"
   },
   "keywords": [
     "wordcloud",
     "canvas",
     "nodejs"
   ],
-  "author": "daidr <daidr@daidr.me>",
+  "author": "akokko <admin@akokko.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daidr/node-wordcloud/issues"
+    "url": "https://github.com/Akokk0/node-wordcloud/issues"
   },
-  "homepage": "https://github.com/daidr/node-wordcloud#readme",
+  "homepage": "https://github.com/Akokk0/node-wordcloud#readme",
+  "packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6",
   "dependencies": {
-    "canvas": "^2.9.3"
+    "@napi-rs/canvas": "^0.1.68"
   }
 }
